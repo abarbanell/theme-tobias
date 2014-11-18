@@ -4,6 +4,7 @@
 
 $backgroundColor: #ddffdd; // light green? 
 $fontsize: 14px;
+$font: 'Open Sans';
 
 // Include theme-specific fonts
 @font-face {
@@ -33,8 +34,8 @@ html, body {
 
 body {
   background-color: $backgroundColor;
-//  font: 14px helvetica, arial, clean, sans-serif;
-//  *font-size: small;
+  font-size: $fontSize;
+  font-family: $font;
   text-align: center;
 }
 
