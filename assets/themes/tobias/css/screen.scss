@@ -2,6 +2,17 @@
 # YAML front matter - to compile sass file to css
 ---
 
+$backgroundColor: #ddffdd; // light green? 
+$fontsize: 14px;
+
+// Include theme-specific fonts
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-style: normal;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
 /*****************************************************************************/
 /*
 /* Common
@@ -20,8 +31,8 @@ html, body {
 }
 
 body {
-  background-color: white;
-  font: 13.34px helvetica, arial, clean, sans-serif;
+  background-color: $backgroundColor;
+  font: 14px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
