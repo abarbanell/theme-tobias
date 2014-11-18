@@ -3,8 +3,8 @@
 ---
 
 $backgroundColor: #ddffdd; // light green? 
-$fontsize: 14px;
-$font: 'Open Sans';
+$fontSize: 14px;
+$fontFamily: Open Sans;
 
 // Include theme-specific fonts
 @font-face {
@@ -35,7 +35,7 @@ html, body {
 body {
   background-color: $backgroundColor;
   font-size: $fontSize;
-  font-family: $font;
+  font-family: $fontFamily;
   text-align: center;
 }
 
