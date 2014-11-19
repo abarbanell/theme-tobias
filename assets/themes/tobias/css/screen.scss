@@ -2,8 +2,10 @@
 # YAML front matter - to compile sass file to css
 ---
 
-$backgroundColor: #666; // light grey 
+$backgroundColor: #f1f1f1; // light grey 
+$foregroundColor: #ddd; // dark grey 
 $titleColor: #f39501; // loop orange
+$linkColor: #f39501; // loop orange
 $fontSize: 14px;
 $fontFamily: Open Sans;
 
@@ -61,7 +63,7 @@ a:hover {
 }
 
 a:visited {
-  color: #a0a;
+  color: $linkColor;
 }
 
 table {
