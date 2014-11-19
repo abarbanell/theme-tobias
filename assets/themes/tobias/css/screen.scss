@@ -2,7 +2,8 @@
 # YAML front matter - to compile sass file to css
 ---
 
-$backgroundColor: #ddffdd; // light green? 
+$backgroundColor: #666; // light grey 
+$titleColor: #f39501; // loop orange
 $fontSize: 14px;
 $fontFamily: Open Sans;
 
@@ -85,8 +86,8 @@ ul.posts {
 
   ul.posts span {
     color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
+    //font-family: Monaco, "Courier New", monospace;
+    //font-size: 80%;
   }
 
 /*****************************************************************************/
@@ -104,13 +105,13 @@ ul.posts {
 }
 
 .title {
-  color: #a00;
+  color: $titleColor;
   font-weight: bold;
   margin-bottom: 2em;
 }
 
   .site .title a {
-    color: #a00;
+    color: $titleColor;
     text-decoration: none;
   }
 
