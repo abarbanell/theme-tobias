@@ -59,7 +59,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: $foregroundColor;
 }
 
 a:visited {
@@ -87,7 +87,7 @@ ul.posts {
   }
 
   ul.posts span {
-    color: #aaa;
+    color: $foregroundColor;
     //font-family: Monaco, "Courier New", monospace;
     //font-size: 80%;
   }
@@ -118,21 +118,21 @@ ul.posts {
   }
 
   .site .title a:hover {
-    color: black;
+    color: $foregroundColor;
   }
 
   .site .title a.extra {
-    color: #aaa;
+    color: $foregroundColor;
     text-decoration: none;
     margin-left: 1em;
   }
 
   .site .title a.extra:hover {
-    color: black;
+    color: $foregroundColor;
   }
 
   .site .meta {
-    color: #aaa;
+    color: $foregroundColor;
   }
 
   .site .footer {
@@ -199,7 +199,7 @@ ul.posts {
   /* terminal */
 
   #post pre.terminal {
-    border: 1px solid black;
+    border: 1px solid $foregroundColor;
     background-color: #333;
     color: white;
   }
