@@ -132,17 +132,17 @@ ul.posts {
   }
 
   .site .title a:hover {
-    color: $linkColor;
+    color: $foregroundColor;
   }
 
   .site .title a.extra {
-    color: $linkColor;
+    color: $foregroundColor;
     text-decoration: none;
     margin-left: 1em;
   }
 
   .site .title a.extra:hover {
-    color: $foregroundColor;
+    color: $linkColor;
   }
 
   .site .meta {
@@ -151,8 +151,8 @@ ul.posts {
 
   .site .footer {
     font-size: $footer-font-size;
-    color: #666;
-    border-top: 4px solid $orange;
+    color: $foregroundColor;
+    border-top: 2px solid $orange;
     margin-top: 2em;
     overflow: hidden;
   }
