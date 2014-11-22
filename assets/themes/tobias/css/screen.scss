@@ -5,7 +5,7 @@
 // colors
 $backgroundColor: #f1f1f1; // light grey 
 $foregroundColor: #444444; // middle grey 
-$titleColor: #f39501; // loop orange
+$titleColor: $foregroundColor; 
 $linkColor: #f39501; // loop orange
 
 // sizes
@@ -128,7 +128,7 @@ ul.posts {
   }
 
   .site .title a:hover {
-    color: $foregroundColor;
+    color: $linkColor;
   }
 
   .site .title a.extra {
@@ -138,7 +138,7 @@ ul.posts {
   }
 
   .site .title a.extra:hover {
-    color: $foregroundColor;
+    color: $linkSolor;
   }
 
   .site .meta {
@@ -148,7 +148,7 @@ ul.posts {
   .site .footer {
     font-size: $footer-font-size;
     color: #666;
-    border-top: 4px solid #eee;
+    border-top: 4px solid $linkColor;
     margin-top: 2em;
     overflow: hidden;
   }
@@ -159,7 +159,7 @@ ul.posts {
     }
 
       .site .footer .contact a {
-        color: #8085C1;
+        color: $foregroundColor;
       }
 
     .site .footer .rss {
