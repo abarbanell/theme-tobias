@@ -3,10 +3,14 @@
 ---
 
 // colors
-$backgroundColor: #f1f1f1; // light grey 
-$foregroundColor: #444444; // middle grey 
-$titleColor: $foregroundColor; 
-$linkColor: #f39501; // loop orange
+$lightgrey: #f1f1f1;
+$middlegrey: #444444;
+$orange: #f39501;
+
+$backgroundColor: $lightgrey;
+$foregroundColor: $middlegrey;
+$titleColor: $orange;
+$linkColor: $orange;
 
 // sizes
 $font-size: 14px;
@@ -132,13 +136,13 @@ ul.posts {
   }
 
   .site .title a.extra {
-    color: $foregroundColor;
+    color: $linkColor;
     text-decoration: none;
     margin-left: 1em;
   }
 
   .site .title a.extra:hover {
-    color: $linkSolor;
+    color: $foregroundColor;
   }
 
   .site .meta {
@@ -148,7 +152,7 @@ ul.posts {
   .site .footer {
     font-size: $footer-font-size;
     color: #666;
-    border-top: 4px solid $linkColor;
+    border-top: 4px solid $orange;
     margin-top: 2em;
     overflow: hidden;
   }
@@ -159,7 +163,7 @@ ul.posts {
     }
 
       .site .footer .contact a {
-        color: $foregroundColor;
+        color: $linkColor;
       }
 
     .site .footer .rss {
