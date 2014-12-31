@@ -27,26 +27,33 @@
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>
     </div>
-  
-    {{ content }}
-  
-    <div>
-      {% include JB/adsense %}
+
+    <div class="col-sm-3 sidebar hidden-xs">
+      {% include sidebar.html %}
     </div>
 
-    <div class="footer">
-      <div class="contact">
-        <p>
-          {{ site.author.name }}<br />
-          {{ site.tagline }}<br />
-          <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a>
-        </p>
+    <div class="col-sm-9 sol-sm-offset-3">
+  
+      {{ content }}
+  
+      <div>
+        {% include JB/adsense %}
       </div>
-      <div class="contact">
-        <p>
-          <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
-          <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
-        </p>
+
+      <div class="footer">
+        <div class="contact">
+          <p>
+            {{ site.author.name }}<br />
+            {{ site.tagline }}<br />
+            <a href='mailto:{{ site.author.email }}'>{{ site.author.email }}</a>
+          </p>
+        </div>
+        <div class="contact">
+          <p>
+            <a href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a><br />
+            <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
+          </p>
+        </div>
       </div>
     </div>
   </div>
