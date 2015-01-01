@@ -150,25 +150,6 @@ ul.posts {
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 
-  .title a {
-    color: $titleColor;
-    text-decoration: none;
-  }
-
-  .title a:hover {
-    color: $foregroundColor;
-  }
-
-  .title a.extra {
-    color: $foregroundColor;
-    text-decoration: none;
-    margin-left: 1em;
-  }
-
-  .title a.extra:hover {
-    color: $linkColor;
-  }
-
   .meta {
     color: $foregroundColor;
   }
