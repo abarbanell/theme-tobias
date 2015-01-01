@@ -115,31 +115,30 @@ ul.posts {
   overflow: hidden;
 }
 
-.title a {
-  color: $titleColor;
-  text-decoration: none;
-  margin: 3em auto 2em auto;
-  line-height: 1.5em;
+.title { 
+  a {
+    color: $titleColor;
+    text-decoration: none;
+    margin: 3em auto 2em auto;
+    line-height: 1.5em;
+  }
+
+  a:hover {
+    color: $foregroundColor;
+  }
+
+  a.extra {
+    color: $foregroundColor;
+    text-decoration: none;
+    margin-left: 1em;
+  }
+
+  a.extra:hover {
+    color: $linkColor;
+  }
+
 }
 
-.title a {
-  color: $titleColor;
-  text-decoration: none;
-}
-
-.title a:hover {
-  color: $foregroundColor;
-}
-
-.title a.extra {
-  color: $foregroundColor;
-  text-decoration: none;
-  margin-left: 1em;
-}
-
-.title a.extra:hover {
-  color: $linkColor;
-}
 
 
 /*****************************************************************************/
