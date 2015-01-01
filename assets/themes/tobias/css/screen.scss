@@ -107,9 +107,22 @@ ul.posts {
     color: $foregroundColor;
   }
 
+.footer {
+  font-size: $footer-font-size;
+  color: $foregroundColor;
+  border-top: 2px solid $orange;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.title a {
+  color: $titleColor;
+  text-decoration: none;
+}
+
 /*****************************************************************************/
 /*
-/* Site
+/* Site - obsolete, will be removed for bootstrap.
 /*
 /*****************************************************************************/
 
@@ -140,13 +153,6 @@ ul.posts {
     color: $foregroundColor;
   }
 
-  .footer {
-    font-size: $footer-font-size;
-    color: $foregroundColor;
-    border-top: 2px solid $orange;
-    margin-top: 2em;
-    overflow: hidden;
-  }
 
   .footer .contact {
       float: left;
