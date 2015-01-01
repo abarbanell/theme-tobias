@@ -120,6 +120,26 @@ ul.posts {
   text-decoration: none;
 }
 
+.title a {
+  color: $titleColor;
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: $foregroundColor;
+}
+
+.title a.extra {
+  color: $foregroundColor;
+  text-decoration: none;
+  margin-left: 1em;
+}
+
+.title a.extra:hover {
+  color: $linkColor;
+}
+
+
 /*****************************************************************************/
 /*
 /* Site - obsolete, will be removed for bootstrap.
