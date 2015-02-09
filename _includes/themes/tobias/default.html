@@ -20,11 +20,11 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-sm-1 sidebar hidden-xs">
+      <div class="col-sm-2 sidebar hidden-xs">
         {% include themes/tobias/sidebar.html %}
       </div>
 
-      <div class="col-sm-9">
+      <div class="col-sm-8">
         <div class="title">
           <a href="{{ HOME_PATH }}">{{ site.title }}</a>
 
@@ -36,13 +36,13 @@
         {{ content }}
         {% include JB/adsensefooter %}
       </div>
-      <div class="col-sm-2 hidden-xs">
+      <div class="col-sm-2 hidden-xs" style="margin-top: 200px">
         {% include JB/adsensecolumn %}
       </div>
     </div>
 
     <div class="row footer">
-      <div class="col-sm-5 col-sm-offset-3">
+      <div class="col-sm-4 col-sm-offset-2">
         <p>
           {{ site.author.name }}<br />
           {{ site.tagline }}<br />
